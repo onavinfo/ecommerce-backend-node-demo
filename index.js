@@ -28,7 +28,7 @@ const app = express();
 /**
  * ✅ CORS
  */
-const ALLOWED_ORIGINS = ["http://localhost:5173", "http://localhost:3000"];
+const ALLOWED_ORIGINS = ["http://localhost:5173", "http://localhost:3000","https://onavecommerce.netlify.app"];
 
 app.use(
   cors({
